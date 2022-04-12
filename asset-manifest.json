@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/envoys-vision-homepage/static/js/main.d290f7c8.js",
+    "static/media/bg.jpg": "/envoys-vision-homepage/static/media/bg.8fa8da71733328591b0d.jpg",
+    "static/media/Vector-2.svg": "/envoys-vision-homepage/static/media/Vector-2.ed97c396dcf853496aed873963236647.svg",
+    "static/media/Path.svg": "/envoys-vision-homepage/static/media/Path.1ffd549f369eef0a165e5680c5e2f301.svg",
+    "static/media/logo.svg": "/envoys-vision-homepage/static/media/logo.b66d300ddef6322d095f877a38fb2ba7.svg",
+    "static/media/Path-2.svg": "/envoys-vision-homepage/static/media/Path-2.e3c71fa0ef69b519ee4bdc2958be0411.svg",
+    "static/media/Vector-1.svg": "/envoys-vision-homepage/static/media/Vector-1.43030ed92d31142151ad9a100e94d690.svg",
+    "static/media/Vector.svg": "/envoys-vision-homepage/static/media/Vector.d40bd1777fd53097ca724af0eadcc040.svg",
+    "index.html": "/envoys-vision-homepage/index.html",
+    "static/media/Path-3.svg": "/envoys-vision-homepage/static/media/Path-3.2374446799087da92adfc6ac686c9291.svg",
+    "static/media/btn.svg": "/envoys-vision-homepage/static/media/btn.883e62f900ad9b4b8179c01c055d522b.svg",
+    "main.d290f7c8.js.map": "/envoys-vision-homepage/static/js/main.d290f7c8.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d290f7c8.js"
+  ]
+}
