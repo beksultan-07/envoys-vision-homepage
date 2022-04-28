@@ -6,8 +6,9 @@ type BtnPropsStyle = {
     shadow: string;
 }
 
-const BtnWrap = styled.div`
+const BtnWrap = styled.a`
     position: relative;
+    text-decoration: none;
 `
 
 export const Btn = styled.button<BtnPropsStyle>`
@@ -55,12 +56,13 @@ type BtnProps = {
     color: string;
     text: string;
     shadow: string;
+    href: string;
   }
 
 const Button:React.FC<BtnProps> = (props) => {
     const icon = require('../assets/btn.svg')['default']
     return (
-      <BtnWrap>
+      <BtnWrap href={props.href} target='_blank'>
         <Btn color={props.color} shadow={props.shadow}>
           <span>{props.text}</span>
           <img src={icon} alt="" />

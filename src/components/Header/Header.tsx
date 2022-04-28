@@ -41,11 +41,11 @@ const Header:React.FC = () => {
         <HeaderWrap>
             <HeaderLogo src={Logo}/>
 
-            <HeaderBurger>
+            {/* <HeaderBurger>
                 <span></span>
                 <span></span>
                 <span></span>
-            </HeaderBurger>
+            </HeaderBurger> */}
         </HeaderWrap>
     )
 }

@@ -5,18 +5,19 @@ const bg = require('../../assets/bg.jpg')
 
 export const BannerWrap = styled.section`
     background: url(${bg}) 0 0 / cover;
-    height: 100vh;
+    min-height: 100vh;
+    height: 100%;
     padding: 116px 0 0;
-    @media(max-height: 600px){
-        height: 120vh;
-    }
+    position: relative;
+    display: flex;
+    align-items: center;
 `
 export const BannerFilter = styled.div`
     position: absolute;
     background: rgba(255, 255, 255, 0.01);
     backdrop-filter: blur(20px);
     width: 50vw;
-    height: 100vh;
+    min-height: 100%;
     top: 0;
     left: 0;
     z-index: 1;
@@ -32,7 +33,8 @@ export const BannerInside = styled(Flex)`
     padding: 20px 0;
 `
 
-export const BannerBtn = styled.button`
+export const BannerBtn = styled.a`
+    text-decoration: none;
     margin: 20px 0 0;
     outline: none;
     border: 3px solid #FDFDFD;

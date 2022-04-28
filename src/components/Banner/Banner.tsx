@@ -14,12 +14,12 @@ const Banner:React.FC = () => {
                         Start forming <br />
                         your <span>cryptocurrency</span> portfolio
                     </BigTitle>
-                    <Button color='#4478BB' text='Exchange' shadow='#003E73'/>
-                    <BannerBtn>
+                    <Button href='#' color='#4478BB' text='Exchange' shadow='#003E73'/>
+                    <BannerBtn href='#' target='_blank'>
                         <span>DEX</span>
                         <img src={icon} alt="" />
                     </BannerBtn>
-                    <BannerBtn>
+                    <BannerBtn href='#' target='_blank'>
                         <span>Processing</span>
                         <img src={icon} alt="" />
                     </BannerBtn>

@@ -17,12 +17,16 @@ const SideBarImgs = styled(Flex)`
     flex-direction: column;
 `
 
-const SideBarImg = styled.img`
-    width: 33px ;
-    margin: 16px 0 0;
+const SideBarLink = styled.a`
+        margin: 16px 0 0;
     :first-child{
         margin: 0;
     }
+`
+
+const SideBarImg = styled.img`
+    width: 33px ;
+
 `
 
 const SideBarPog = styled.h3`
@@ -40,12 +44,8 @@ const SideBarPog = styled.h3`
     border-bottom: 3px solid #1E1E1E;
     transform: rotate(90deg);
 `
- 
-type Props = {
-    pog: number;
-}
 
-const SideBar:React.FC<Props> = (props) => {
+const SideBar:React.FC= () => {
     const icon1 = require('../../assets/social media icons/Vector.svg')['default']
     const icon2 = require('../../assets/social media icons/Vector-1.svg')['default']
     const icon3 = require('../../assets/social media icons/Vector-2.svg')['default']
@@ -54,11 +54,16 @@ const SideBar:React.FC<Props> = (props) => {
         <SideBarWrap>
             <Flex direction='column' align='center'>
                 <SideBarImgs>
-                    <SideBarImg src={icon1}/>
-                    <SideBarImg src={icon2}/>
-                    <SideBarImg src={icon3}/>
+                    <SideBarLink href='#'>
+                        <SideBarImg src={icon1}/>
+                    </SideBarLink>
+                    <SideBarLink href='#'>
+                        <SideBarImg src={icon2}/>
+                    </SideBarLink>
+                    <SideBarLink href='#'>
+                        <SideBarImg src={icon3}/>
+                    </SideBarLink>
                 </SideBarImgs>
-                <SideBarPog>{props.pog}</SideBarPog>
             </Flex>
         </SideBarWrap>
     )

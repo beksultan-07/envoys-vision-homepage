@@ -53,4 +53,7 @@ export const BlockText = styled.p<Props>`
     line-height: 27px;
     color: ${props => props.color || '#1E1E1E'};
     margin: ${props => props.margin || '0px'};
+    @media(max-width: 400px){
+        font-size: 16px;
+    }
 `
