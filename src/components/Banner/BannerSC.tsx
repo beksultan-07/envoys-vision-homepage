@@ -1,10 +1,9 @@
 import styled from "styled-components";
 import { Btn } from "../../uikit/Button";
 import { Flex } from "../../uikit/uikit";
-const bg = require('../../assets/bg.jpg')
 
 export const BannerWrap = styled.section`
-    background: url(${bg}) 0 0 / cover;
+    background: url(${require('../../assets/bg.jpg')}) 0 0 / cover;
     min-height: 100vh;
     height: 100%;
     padding: 116px 0 0;
